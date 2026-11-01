@@ -1,11 +1,11 @@
+
 // This class uses a DebugTrip class
 // to instantiate three Trip objects
 // Each uses a different version of the constructor
 import java.util.Scanner;
-public class DebugFour4
-{
-   public static void main(String[] args)
-   {
+
+public class DebugFour4 {
+   public static void main(String[] args) {
       Scanner input = new Scanner(System.in);
       String destinationCity;
       String departureCity;
@@ -28,9 +28,11 @@ public class DebugFour4
       display(trip1);
       display(trip2);
       display(trip3);
+
+      input.close();
    }
-   public static void display(DebugTrip trip)
-   {
+
+   public static void display(DebugTrip trip) {
       System.out.println("Going to " + trip.getDestination());
       System.out.println("    Leaving from " + trip.getDepartureCity());
       System.out.println("    Going by " + trip.getMode());
