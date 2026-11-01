@@ -1,10 +1,10 @@
+
 // This class uses a DebugBox class
 // to instantiate two Box objects
 import java.util.Scanner;
-public class DebugFour3
-{
-   public static void main(String[] args)
-   {
+
+public class DebugFour3 {
+   public static void main(String[] args) {
       Scanner input = new Scanner(System.in);
       int w, l, h;
 
@@ -28,9 +28,11 @@ public class DebugFour3
 
       System.out.print("  The volume of the second box is ");
       showVolume(box2);
+
+      input.close();
    }
-   public static void showVolume(DebugBox aBox)
-   {
+
+   public static void showVolume(DebugBox aBox) {
       double vol = aBox.getVolume();
       System.out.println(vol);
    }
