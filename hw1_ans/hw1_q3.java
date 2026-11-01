@@ -14,6 +14,7 @@ public class hw1_q3 {
         System.out.println("Total Price: $" + event.getPrice());
         System.out.println("Is Large: " + event.isLargeEvent());
 
+        input.close();
     }
 }
 
