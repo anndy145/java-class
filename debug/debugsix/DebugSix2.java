@@ -2,8 +2,6 @@
 // Display every character between Unicode 65 and 122
 // Start new line after 20 characters
 
-import java.util.Scanner;
-
 public class DebugSix2 {
    public static void main(String[] args) {
       final int MIN = 65;
