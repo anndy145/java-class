@@ -9,7 +9,6 @@ public class DebugSeven2 {
       String str;
       int x;
       int length;
-      int start = 0;
       int num;
       int lastSpace = -1;
       int sum = 0;
