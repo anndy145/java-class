@@ -23,17 +23,23 @@ public class DebugSeven2 {
       for (x = 0; x < length; ++x) {
          if (str.charAt(x) == ' ') {
             partStr = str.substring(lastSpace + 1, x);
-            num = Integer.parseInt(partStr);
-            System.out.println("                " + num);
-            sum += num;
+            if (!partStr.isEmpty()) {
+               num = Integer.parseInt(partStr);
+               System.out.println("                " + num);
+               sum += num;
+            }
             lastSpace = x;
          }
       }
 
       partStr = str.substring(lastSpace + 1, length);
-      num = Integer.parseInt(partStr);
-      System.out.println("                " + num);
-      sum += num;
+
+      if (!partStr.isEmpty()) {
+         num = Integer.parseInt(partStr);
+         System.out.println("                " + num);
+         sum += num;
+      }
+
       System.out.println("         -------------------" + "\nThe sum of the integers is " + sum);
       in.close();
    }
