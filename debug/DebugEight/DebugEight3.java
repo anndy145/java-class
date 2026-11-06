@@ -2,7 +2,6 @@
 // Application looks up home price
 // for different floor plans
 // allows upper or lowercase data entry
-
 import java.util.*;
 
 public class DebugEight3 {
