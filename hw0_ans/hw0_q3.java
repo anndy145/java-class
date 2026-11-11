@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class hw1_q3 {
+public class hw0_q3 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

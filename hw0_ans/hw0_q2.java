@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class hw1_q2 {
+public class hw0_q2 {
     public static void displayMotto() {
         System.out.println("SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS");
         System.out.println("S Sunshine Seashore makes it fun in the sun. S");
