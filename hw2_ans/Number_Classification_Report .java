@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NumberClassificationReport {
+public class Number_Classification_Report  {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int total = input.nextInt();

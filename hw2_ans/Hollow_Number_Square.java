@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HollowNumberSquare {
+public class Hollow_Number_Square {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int total = input.nextInt();

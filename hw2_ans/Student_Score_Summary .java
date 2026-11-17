@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StudentScoreSummary {
+public class  Student_Score_Summary  {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

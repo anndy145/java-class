@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class WeeklyParkingFees {
+public class Weekly_Parking_Fees  {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
