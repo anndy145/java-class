@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class PasswordStrengthChecker {
+public class Password_Strength_Checker {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int total = input.nextInt();

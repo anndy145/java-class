@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LetterFrequencyReport {
+public class Letter_Frequency_Report {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String text = input.nextLine();
