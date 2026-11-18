@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StudentNameSearch {
+public class Student_Name_Search {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

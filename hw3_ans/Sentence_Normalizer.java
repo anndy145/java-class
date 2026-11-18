@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class SentenceNormalizer {
+public class Sentence_Normalizer {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class WordArrayReversal {
+public class Word_Array_Reversal {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int total = input.nextInt();
