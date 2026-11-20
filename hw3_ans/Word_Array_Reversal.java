@@ -20,7 +20,7 @@ public class Word_Array_Reversal {
             System.out.println(new StringBuilder(words[i]).reverse());
         }
 
-        System.out.println("Palindrome words: " + palindromeCount);
+        System.out.println("Palindromes: " + palindromeCount);
         input.close();
     }
 }
