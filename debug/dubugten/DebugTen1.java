@@ -7,10 +7,12 @@ import java.util.*;
 public class DebugTen1 {
    public static void main(String[] args) throws ArithmeticException {
       Scanner kb = new Scanner(System.in);
+
       double num, result;
       try {
          System.out.print("Enter an integer to find logarithm >> ");
          num = kb.nextInt();
+         kb.close();
          if (num <= 0)
             throw (new ArithmeticException());
          result = Math.log(num);
@@ -20,5 +22,6 @@ public class DebugTen1 {
       } catch (Exception error) {
          System.out.println("Data entry error");
       }
+
    }
 }
