@@ -22,7 +22,7 @@ public class DebugNine3 {
             ref[x] = liner;
          }
       }
-      for (x = 0; x <= ref.length; ++x) {
+      for (x = 0; x < ref.length; ++x) {
          ref[x].setPassengers();
          ref[x].setPower();
          System.out.println(ref[x].toString());
