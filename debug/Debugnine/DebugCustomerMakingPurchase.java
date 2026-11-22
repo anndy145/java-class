@@ -9,7 +9,7 @@ public class DebugCustomerMakingPurchase extends DebugCustomer {
       if (amountOfPurchase > creditLimit)
          overLimit = true;
       else
-         overLimit = true;
+         overLimit = false;
    }
 
    @Override
